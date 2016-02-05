@@ -1,7 +1,7 @@
 
 [
 
-	{"keys": ["super+shift+v"], "command": "run_multiple_commands",
+	{"keys": ["super+shift+v"], "command": "textract",
 		"args": {
 			"commands":
 			[
@@ -23,7 +23,7 @@
 		}
 	},
 
-	{"keys": ["super+shift+c"], "command": "run_multiple_commands",
+	{"keys": ["super+shift+c"], "command": "textract",
 		"args": {
 			"commands":
 			[
@@ -45,7 +45,7 @@
 		}
 	},
 
-	{"keys": ["super+shift+l"], "command": "run_multiple_commands",
+	{"keys": ["super+shift+l"], "command": "textract",
 		"args": {
 			"commands":
 			[
@@ -62,7 +62,7 @@
 		}
 	},
 
-	{"keys": ["super+shift+n"], "command": "run_multiple_commands",
+	{"keys": ["super+shift+n"], "command": "textract",
 		"args": {
 			"commands":
 			[
@@ -73,7 +73,7 @@
 		}
 	},
 
-	{"keys": ["super+alt+shift+n"], "command": "run_multiple_commands",
+	{"keys": ["super+alt+shift+n"], "command": "textract",
 		"args": {
 			"commands":
 			[

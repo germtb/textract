@@ -1,0 +1,88 @@
+
+[
+
+  {"keys": ["ctrl+alt+v"], "command": "textract",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "insert", "args": {"characters": "temp"} },
+        { "command": "move_to", "args": {"to": "eol", "extend": false} },
+        { "command": "move_to", "args": {"to": "bol", "extend": false} },
+        { "command": "insert", "args": {"characters": "\n"} },
+        { "command": "move", "args": {"by": "lines", "forward": false} },
+        { "command": "insert", "args": {"characters": "var temp = "} },
+        { "command": "paste" },
+        { "command": "insert", "args": {"characters": ";"} },
+        { "command": "move_to", "args": {"to": "bol", "extend": false} },
+        { "command": "move", "args": {"by": "subword_ends", "forward": true} },
+        { "command": "move", "args": {"by": "subword_ends", "forward": true} },
+        { "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+        { "command": "find_under_expand", "context": "window" },
+      ],
+    }
+  },
+
+  {"keys": ["ctrl+alt+c"], "command": "textract",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "insert", "args": {"characters": "temp"} },
+        { "command": "move_to", "args": {"to": "eol", "extend": false} },
+        { "command": "move_to", "args": {"to": "bol", "extend": false} },
+        { "command": "insert", "args": {"characters": "\n"} },
+        { "command": "move", "args": {"by": "lines", "forward": false} },
+        { "command": "insert", "args": {"characters": "const temp = "} },
+        { "command": "paste" },
+        { "command": "insert", "args": {"characters": ";"} },
+        { "command": "move_to", "args": {"to": "bol", "extend": false} },
+        { "command": "move", "args": {"by": "subword_ends", "forward": true} },
+        { "command": "move", "args": {"by": "subword_ends", "forward": true} },
+        { "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+        { "command": "find_under_expand", "context": "window" },
+      ],
+    }
+  },
+
+  {"keys": ["ctrl+alt+l"], "command": "textract",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "insert", "args": {"characters": "lambda()"} },
+        { "command": "move_to", "args": {"to": "eol", "extend": false} },
+        { "command": "move_to", "args": {"to": "bol", "extend": false} },
+        { "command": "insert", "args": {"characters": "\n"} },
+        { "command": "move", "args": {"by": "lines", "forward": false} },
+        { "command": "insert", "args": {"characters": "const lambda = () => "} },
+        { "command": "paste" },
+        { "command": "insert", "args": {"characters": ";"} },
+      ],
+    }
+  },
+
+  {"keys": ["ctrl+alt+n"], "command": "textract",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "new_file", "context": "window" },
+        { "command": "paste", "context": "window" },
+      ],
+    }
+  },
+
+  {"keys": ["super+alt+shift+n"], "command": "textract",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "new_file", "context": "window" },
+        { "command": "paste", "context": "window" },
+        { "command": "save", "context": "window" },
+      ],
+    }
+  },
+
+]
