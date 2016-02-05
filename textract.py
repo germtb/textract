@@ -8,7 +8,7 @@ import sublime_plugin
 # TextCommand, WindowCommands, or ApplicationCommand respectively.
 
 
-class RunMultipleCommandsCommand(sublime_plugin.TextCommand):
+class Textract(sublime_plugin.TextCommand):
 
     def exec_command(self, command):
         if 'command' not in command:
