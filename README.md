@@ -24,10 +24,12 @@ unless you keep those nuclear disarm codes you were saving for christmas.
 
 - OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>c</kbd>
+
 ![](https://dl.dropboxusercontent.com/u/140127353/extractConstant.gif)
 
 ### Extract file
 
 - OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>n</kbd>
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>n</kbd>
+
 ![](https://dl.dropboxusercontent.com/u/140127353/extractFile.gif)
