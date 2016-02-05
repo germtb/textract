@@ -15,18 +15,19 @@ unless you keep those nuclear disarm codes you were saving for christmas.
 
 ### Extract variable
 
-<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>v</kbd>
+- OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>v</kbd>
+- Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>v</kbd>
 
 ![](https://dl.dropboxusercontent.com/u/140127353/extractVariable.gif)
 
 ### Extract constant
 
-<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
-
+- OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
+- Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>c</kbd>
 ![](https://dl.dropboxusercontent.com/u/140127353/extractConstant.gif)
 
 ### Extract file
 
-<kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>n</kbd>
-
+- OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>n</kbd>
+- Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>n</kbd>
 ![](https://dl.dropboxusercontent.com/u/140127353/extractFile.gif)
