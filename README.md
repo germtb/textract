@@ -10,22 +10,27 @@ The easiest way to install this package is using the package control.
 ## How to use
 
 ### Warning
-This plugin depends on the clipboard and will override it. So it's ok
-unless you keep those nuclear disarm codes you were saving for christmas.
 
-### Extract variable
+There are two important things to consider when using this plugin:
+
+- It depends on the clipboard and will override it. So it's ok unless you keep those nuclear disarm codes you were saving for christmas.
+- It is dumb. There is no code analysis or intelligence. This has benefits (it is predictable, it uses raw text as interface) and disadvantages (can fail for aparently stupid reasons, does not understand what it's doing).
+
+This does not mean this plugin is not useful, it only means that all the intelligence you need you have to bring it yourself.
+
+### Extract var, const or let
 
 - OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>v</kbd>
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>v</kbd>
 
-![](https://dl.dropboxusercontent.com/u/140127353/extractVariable.gif)
-
-### Extract constant
-
 - OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>c</kbd>
 
-![](https://dl.dropboxusercontent.com/u/140127353/extractConstant.gif)
+- OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>l</kbd>
+- Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd>
+
+![](https://dl.dropboxusercontent.com/u/140127353/extractVariable.gif)
+
 
 ### Extract file
 
@@ -33,3 +38,10 @@ unless you keep those nuclear disarm codes you were saving for christmas.
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>n</kbd>
 
 ![](https://dl.dropboxusercontent.com/u/140127353/extractFile.gif)
+
+### Inline variable
+
+- OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>i</kbd>
+- Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>i</kbd>
+
+![](https://dl.dropboxusercontent.com/u/140127353/inlineVariable.gif)
