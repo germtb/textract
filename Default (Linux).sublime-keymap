@@ -85,4 +85,20 @@
     }
   },
 
+  {"keys": ["ctrl+alt+i"], "command": "run_multiple_commands",
+    "args": {
+      "commands":
+      [
+        { "command": "cut" },
+        { "command": "move", "args": {"by": "words", "forward": false} },
+        { "command": "move", "args": {"by": "words", "forward": false} },
+        { "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+        { "command": "find_all_under", "context": "window" },
+        { "command": "paste" },
+        { "command": "single_selection" },
+        { "command": "cut" }
+      ],
+    }
+  },
+
 ]
