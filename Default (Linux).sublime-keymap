@@ -96,7 +96,12 @@
         { "command": "find_all_under", "context": "window" },
         { "command": "paste" },
         { "command": "single_selection" },
-        { "command": "cut" }
+        { "command": "move_to", "args": {"to": "bol", "extend": true} },
+        { "command": "find_all_under", "context": "window" },
+        { "command": "expand_selection", "args": {"to": "line"} },
+        { "command": "cut" },
+        { "command": "expand_selection", "args": {"to": "line"} },
+
       ],
     }
   },
