@@ -6,12 +6,12 @@
       "commands":
       [
         { "command": "cut" },
-        { "command": "insert", "args": {"characters": "temp"} },
+        { "command": "insert", "args": {"characters": "TEMP"} },
         { "command": "move_to", "args": {"to": "eol", "extend": false} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
         { "command": "insert", "args": {"characters": "\n"} },
         { "command": "move", "args": {"by": "lines", "forward": false} },
-        { "command": "insert", "args": {"characters": "var temp = "} },
+        { "command": "insert", "args": {"characters": "var TEMP = "} },
         { "command": "paste" },
         { "command": "insert", "args": {"characters": ";"} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
@@ -28,12 +28,12 @@
       "commands":
       [
         { "command": "cut" },
-        { "command": "insert", "args": {"characters": "temp"} },
+        { "command": "insert", "args": {"characters": "TEMP"} },
         { "command": "move_to", "args": {"to": "eol", "extend": false} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
         { "command": "insert", "args": {"characters": "\n"} },
         { "command": "move", "args": {"by": "lines", "forward": false} },
-        { "command": "insert", "args": {"characters": "const temp = "} },
+        { "command": "insert", "args": {"characters": "const TEMP = "} },
         { "command": "paste" },
         { "command": "insert", "args": {"characters": ";"} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
@@ -50,12 +50,12 @@
       "commands":
       [
         { "command": "cut" },
-        { "command": "insert", "args": {"characters": "temp"} },
+        { "command": "insert", "args": {"characters": "TEMP"} },
         { "command": "move_to", "args": {"to": "eol", "extend": false} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
         { "command": "insert", "args": {"characters": "\n"} },
         { "command": "move", "args": {"by": "lines", "forward": false} },
-        { "command": "insert", "args": {"characters": "let temp = "} },
+        { "command": "insert", "args": {"characters": "let TEMP = "} },
         { "command": "paste" },
         { "command": "insert", "args": {"characters": ";"} },
         { "command": "move_to", "args": {"to": "bol", "extend": false} },
