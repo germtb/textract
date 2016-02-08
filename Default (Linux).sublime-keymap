@@ -90,7 +90,7 @@
     }
   },
 
-  {"keys": ["ctrl+alt+i"], "command": "run_multiple_commands",
+  {"keys": ["ctrl+alt+i"], "command": "textract",
     "args": {
       "commands":
       [
