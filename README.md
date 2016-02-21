@@ -39,7 +39,7 @@ This does not mean this plugin is not useful, it only means that all the intelli
 
 ![](https://dl.dropboxusercontent.com/u/140127353/extractFile.gif)
 
-### Inline variable
+### Inline variable (experimental)
 
 - OS X: <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>i</kbd>
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>i</kbd>
