@@ -13,10 +13,10 @@ The easiest way to install this package is using the package control.
 
 There are two important things to consider when using this plugin:
 
-- It depends on the clipboard and will override it. So it's ok unless you keep those nuclear disarm codes you were saving for christmas.
+- It depends on the clipboard and will override it. So it's ok unless you where using the clipboard to store those nuclear disarm codes you were saving for christmas.
 - It is dumb. There is no code analysis or intelligence. This has benefits (it is predictable, it uses raw text as interface) and disadvantages (can fail for aparently stupid reasons, does not understand what it's doing).
 
-This does not mean this plugin is not useful, it only means that all the intelligence you need you have to bring it yourself.
+This does not mean this plugin is not useful, it only means that all the intelligence you need, you have to bring it yourself.
 
 ### Extract var, const or let
 
