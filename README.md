@@ -22,7 +22,6 @@ There are two important things to consider when using this plugin:
 
 ![](https://dl.dropboxusercontent.com/u/140127353/consoledown.gif)
 
-
 ### Console log up
 - OS X: <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
 - Windows/Linux: <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>
@@ -41,7 +40,6 @@ There are two important things to consider when using this plugin:
 - Windows/Linux: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd>
 
 ![](https://dl.dropboxusercontent.com/u/140127353/extractVariable.gif)
-
 
 ### Extract file
 
